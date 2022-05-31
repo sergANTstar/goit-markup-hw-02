@@ -4,6 +4,12 @@
     --backround-color: #FFFFFF;
 }
 
+*,
+*::before,
+*::after {
+ text-decoration: none;
+}
+
 .accent-color {
     color: var(--accent-color);
 }
@@ -18,7 +24,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size:14px ;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -63,7 +69,7 @@ body{
 .main-headline{
     font-weight: 900;
     font-size:44px;
-    line-height: 1.4;
+    line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -82,7 +88,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size:16px;
-    line-height: 1.9;
+    line-height: 1.88;
     letter-spacing: 0.03em;
  }
  
@@ -93,7 +99,7 @@ body{
  }
 
  .benefits-title {
-    line-height: 1.7;
+    line-height: 1.71;
  }
 
  .second-headline {
@@ -118,7 +124,7 @@ body{
 
  .footer {
     background-color: #2F303A;
-    line-height: 1.7;
+    line-height: 1.71;
     color: var(--backround-color);
     
  }
@@ -132,7 +138,7 @@ body{
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
     text-align: center;
     background-color: #F5F4FA;;
     border-radius: 4px;
@@ -157,7 +163,7 @@ body{
 
 .portfolio-items {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.88;
     color: #757575;
     
 }
