@@ -55,7 +55,7 @@ body{
 
 .contacts-nav {
     font-weight: 500;
-    color: var(--main-text-color);
+    color: #757575;
     letter-spacing: 0.02em;
 }
 
@@ -81,15 +81,13 @@ body{
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
-    letter-spacing: 0.06em;
- }
 
- .order-button-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size:16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
+    
  }
  
  .benefits-headline{
@@ -130,10 +128,10 @@ body{
  }
 
  .footer-contacts {
-    color: var(--backround-color) ;
+    color: var(--backround-color); opacity: 0.6;
  }
 
- .button-portfolio {
+ .button-portfolio-text {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     font-weight: 500;
@@ -145,6 +143,7 @@ body{
  }
 
  .button-portfolio-text:hover, .button-portfolio-text:focus {
+     
     font-family: 'Roboto', sans-serif;
     color: var(--backround-color);
     letter-spacing: 0.03em;
